@@ -1,0 +1,2 @@
+rewrite ^/(wp-.*.php)$ /wp/$1 last;
+rewrite ^/(wp-(content|admin|includes).*) /wp/$1 last;
